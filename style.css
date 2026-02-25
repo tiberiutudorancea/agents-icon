@@ -1,0 +1,27 @@
+/* Base Layout */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F0F0EB;
+}
+
+/* Default SVG modules */
+
+svg {
+  cursor: pointer;
+  
+  &:active {
+    transform: scale(.96)
+  };
+}
+
+svg path {
+  transition: fill 0.1s ease;
+}
